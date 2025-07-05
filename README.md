@@ -28,7 +28,9 @@ LottieFiles (for animations)
 
 1. Clone the repository:
 
-https://github.com/MOHITH508
+git clone https://github.com/MOHITH508/DAILY_MOTIVATION_GENERATOR.git
+cd daily-motivation-generator
+
 
 2.Install dependencies:
 
