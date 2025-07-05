@@ -2,6 +2,8 @@
 
 This Streamlit-based web app helps you get a quick dose of motivation tailored to your mood. Simply type in how you feel, click the button, and see an uplifting, personalized quote along with a beautiful Lottie animation.
 
+
+
 ✨ Features
 
 ✅ Interactive Streamlit web app
@@ -14,6 +16,8 @@ This Streamlit-based web app helps you get a quick dose of motivation tailored t
 
 ✅ Easy to run and extend
 
+
+
 🛠️ Technologies Used
 
 Python
@@ -24,6 +28,9 @@ streamlit-lottie
 
 LottieFiles (for animations)
 
+
+
+
 🏃 How to Run Locally
 
 1. Clone the repository:
@@ -33,13 +40,19 @@ git clone https://github.com/MOHITH508/DAILY_MOTIVATION_GENERATOR.git
 cd daily-motivation-generator
 
 
+
 2. Install dependencies:
 
 pip install streamlit streamlit-lottie requests
 
+
+
 3. Run the app:
 
 streamlit run app.py
+
+
+
 
 📂 Project Structure
 
@@ -55,9 +68,14 @@ Edit
 
 └── requirements.txt
 
+
+
+
 🤝 Contributing
 
 Pull requests and suggestions are welcome! Feel free to fork this repo and propose improvements or more motivation categories.
+
+
 
 🙌 Acknowledgements
 
