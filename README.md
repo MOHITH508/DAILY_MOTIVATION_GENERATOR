@@ -70,6 +70,31 @@ Edit
 └── requirements.txt
 
 
+🔍 Example Mood Prompts
+
+anxious
+
+confident
+
+focus
+
+sad
+
+energy
+
+angry
+
+🚧 Future Enhancements
+
+Add multilingual motivational quotes
+
+Allow users to upload their own background images
+
+Share quotes directly to social media
+
+Save favorite quotes to local storage
+
+Daily quote notifications
 
 
 👨‍💻 Author
