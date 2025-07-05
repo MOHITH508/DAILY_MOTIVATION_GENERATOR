@@ -4,6 +4,7 @@ This Streamlit-based web app helps you get a quick dose of motivation tailored t
 
 
 
+
 ✨ Features
 
 ✅ Interactive Streamlit web app
@@ -71,17 +72,24 @@ Edit
 
 
 
-🤝 Contributing
+👨‍💻 Author
 
-Pull requests and suggestions are welcome! Feel free to fork this repo and propose improvements or more motivation categories.
+Mohith
+
+Student | Enthusiast in AI and Data Applications
 
 
+🙏 Acknowledgments
 
-🙌 Acknowledgements
+Streamlit
 
-Streamlit for making data apps so easy
+LottieFiles
 
-LottieFiles for awesome free animations
+Python
+
+All open-source contributors
+
+
 
 
 
