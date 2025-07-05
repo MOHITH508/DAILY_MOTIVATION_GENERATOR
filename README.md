@@ -1,121 +1,39 @@
-🌟 Daily Motivation Generator
+# 🌟 Daily Motivation Generator
 
-This Streamlit-based web app helps you get a quick dose of motivation tailored to your mood. Simply type in how you feel, click the button, and see an uplifting, personalized quote along with a beautiful Lottie animation.
+This is a web-based application that delivers motivational quotes based on user mood input using Streamlit. It features a beautiful UI with smooth Lottie animations and a modern, readable design.
 
+---
 
+## 🚀 Features
 
+✅ Mood-based motivational quotes  
+✅ Responsive Streamlit-based interface  
+✅ Lottie animations for an engaging experience  
+✅ Modern gradient background with good readability  
+✅ User-friendly text input  
+✅ Easy to run and extend  
 
-✨ Features
+---
 
-✅ Interactive Streamlit web app
+## 🛠️ Tech Stack
 
-✅ Motivation quotes based on your current mood
+- **Frontend/UI:** Streamlit  
+- **Animation:** LottieFiles via streamlit-lottie  
+- **Language:** Python 3  
+- **Styling:** Custom CSS  
 
-✅ Smooth Lottie animation to make it visually appealing
+---
 
-✅ Clean and modern UI with a soft gradient background
+## 📦 Installation
 
-✅ Easy to run and extend
+**Clone the repository:**
 
-
-
-🛠️ Technologies Used
-
-Python
-
-Streamlit
-
-streamlit-lottie
-
-LottieFiles (for animations)
-
-
-
-
-🏃 How to Run Locally
-
-1. Clone the repository:
-
-git clone https://github.com/MOHITH508/DAILY_MOTIVATION_GENERATOR.git
-
+```bash
+git clone https://github.com/yourusername/daily-motivation-generator.git
 cd daily-motivation-generator
+exit
+Install dependencies:
 
-
-
-2. Install dependencies:
-
-pip install streamlit streamlit-lottie requests
-
-
-
-3. Run the app:
-
-streamlit run app.py
-
-
-
-
-📂 Project Structure
-
+bash
 Copy
-
 Edit
-
-.
-
-├── app.py
-
-├── README.md
-
-└── requirements.txt
-
-
-🔍 Example Mood Prompts
-
-anxious
-
-confident
-
-focus
-
-sad
-
-energy
-
-angry
-
-🚧 Future Enhancements
-
-Add multilingual motivational quotes
-
-Allow users to upload their own background images
-
-Share quotes directly to social media
-
-Save favorite quotes to local storage
-
-Daily quote notifications
-
-
-👨‍💻 Author
-
-Mohith
-
-Student | Enthusiast in AI and Data Applications
-
-
-🙏 Acknowledgments
-
-Streamlit
-
-LottieFiles
-
-Python
-
-All open-source contributors
-
-
-
-
-
-
