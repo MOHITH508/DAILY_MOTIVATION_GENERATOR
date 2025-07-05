@@ -29,14 +29,15 @@ LottieFiles (for animations)
 1. Clone the repository:
 
 git clone https://github.com/MOHITH508/DAILY_MOTIVATION_GENERATOR.git
+
 cd daily-motivation-generator
 
 
-2.Install dependencies:
+2. Install dependencies:
 
 pip install streamlit streamlit-lottie requests
 
-3.Run the app:
+3. Run the app:
 
 streamlit run app.py
 
