@@ -1,0 +1,50 @@
+import streamlit as st
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+# Load the GPT-2 model and tokenizer
+@st.cache_resource
+def load_model():
+    model_name = "gpt2"
+    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+    model = GPT2LMHeadModel.from_pretrained(model_name)
+    return model, tokenizer
+
+model, tokenizer = load_model()
+
+# Streamlit page config
+st.set_page_config(
+    page_title="Daily Motivation Generator",
+    page_icon="💡",
+    layout="centered"
+)
+
+st.title("💡 Daily Motivation Generator")
+st.write("Get motivational next-sentence suggestions powered by GPT-2.")
+
+# Text input
+user_input = st.text_area("Enter your motivational phrase or sentence:")
+
+if st.button("Generate Next Sentences"):
+    if user_input.strip() == "":
+        st.warning("Please enter a motivational sentence first.")
+    else:
+        input_ids = tokenizer.encode(user_input, return_tensors="pt")
+
+        # Generate 3 sequences
+        outputs = model.generate(
+            input_ids,
+            max_length=50,
+            num_return_sequences=3,
+            no_repeat_ngram_size=2,
+            do_sample=True,
+            top_k=50,
+            top_p=0.95
+        )
+
+        st.subheader("Suggested Next Sentences:")
+        for i, output in enumerate(outputs):
+            decoded_text = tokenizer.decode(output, skip_special_tokens=True)
+            generated = decoded_text[len(user_input):].strip()
+            st.markdown(f"**{i+1}.** {generated}")
+
+st.caption("Built with GPT-2, Streamlit, and Hugging Face Transformers.")
